@@ -9,7 +9,7 @@ form.addEventListener('submit', function(event) {
   const formData = new FormData(event.target);
 
   // 3. Extract a single value
-  const username = formData.get('secret-key');
+  const key = formData.get('secret-key');
     form.reset();
   console.log('secret-key', username)
 });
