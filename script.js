@@ -10,11 +10,11 @@ form.addEventListener('submit', function(event) {
 
   // 3. Extract a single value
   const key = formData.get('secret-key');
-  form.reset();
     let ascii[];
     for(let i = 0;i < key.length;i++){
       ascii.push(key.charCodeAt(i));
     }
+    form.reset();
     alert(ascii);
 
   // console.log('secret-key', key)
