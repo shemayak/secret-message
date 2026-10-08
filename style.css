@@ -1,7 +1,15 @@
-body {
+#submit-form {
   margin: 0;
   height: 100vh;         /* Makes the body span the full height of the viewport */
   display: flex;         /* Enables Flexbox layout */
   justify-content: center; /* Centers content horizontally */
   align-items: center;     /* Centers content vertically */
 }
+div {
+  margin: 0;
+  height: 0vh;         
+  display: flex;         
+  justify-content: center; 
+  align-items: center;     
+}
+
