@@ -1,12 +1,11 @@
 #submit-form {
-  margin: 0;
+  margin: 50px 0 0 0;
   display: flex;         /* Enables Flexbox layout */
   justify-content: center; /* Centers content horizontally */
   align-items: center;     /* Centers content vertically */
 }
 div {
-  margin: 0;
-  height: 0vh;         
+  margin: 15px 0 0 0;     
   display: flex;         
   justify-content: center; 
   align-items: center;     
