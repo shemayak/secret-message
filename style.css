@@ -1,13 +1,9 @@
-#submit-form {
-  margin: 50vh 0 0 0;
+body {
+  margin: 0;
+  height: 100vh;         /* Makes the body span the full height of the viewport */
   display: flex;         /* Enables Flexbox layout */
   justify-content: center; /* Centers content horizontally */
   align-items: center;     /* Centers content vertically */
 }
-div {
-  margin: 15px 0 0 0;     
-  display: flex;         
-  justify-content: center; 
-  align-items: center;     
-}
+
 
